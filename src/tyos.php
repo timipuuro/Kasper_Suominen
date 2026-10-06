@@ -4,7 +4,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omat Nettisivut</title>
+    <title>Kasper Suominen</title>
 
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -60,7 +60,7 @@
             <div class="col-md-6">
                 <h3>Esittely</h3>
                 <p>
-               Minulla on vahva kiinnostus ohjelmointiin sekä teknologiaan, ja olen innokas oppimaan uusia taitoja alalla. Olen motivoitunut ja ahkera opiskelija, joka pyrkii jatkuvasti kehittämään itseään.
+               Minulla on vahva kiinnostus ohjelmointiin etenkin peili ohjelmointiin, ja olen innokas oppimaan uusia taitoja alalla. Olen motivoitunut sekä ahkera opiskelija, joka pyrkii jatkuvasti kehittämään itseään.
                   
                 </p>
 
@@ -69,11 +69,12 @@
                     <li>Lenkeily</li>
                     <li>Pelaaminen</li>
                     <li>Kuntosali</li>
+                    <li>Piirtäminen</li>
                 </ul>
                 <h3>yhteystiedot</h3>
                 <ul>
                     <li>Puhelin numero: 045 698 4533</li>
-                    <li>GitHub: <a href="https://github.com/timipuuro">timipuuro</a></li>
+                    <li>GitHub: <a href="https://github.com/timipuuro">Kasper Suominen</a></li>
                     <li>Kassu.suominen@gmail.com</li>
                 </ul>
             </div>
@@ -154,27 +155,7 @@
                 </div>
             </div>
 
-         
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body" style="height: 300px;" >
-                        <h5 class="card-title">Arvionti HTML</h5>
-                        <p class="card-text">
-                            Minun luoma lyhyt arviontilomake HTML:llä.
-                        </p>
-                       
-                    </div>
-                     <div class="card-footer">
- <a href="auditointi.html" class="btn btn-primary">
-    Katso projekti
-     </a>
-                            </div>
-                </div>
-            </div>
-
-         
-        </div>
-    </div>
+  
 </section>
 
 
