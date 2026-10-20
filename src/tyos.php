@@ -86,14 +86,21 @@
                 <table class="table table-striped" data-bs-theme="dark">
                     <thead>
                         <tr>
+                             <th>Koulutus</th>
                             <th>Vuosi</th>
-                            <th>Koulutus</th>
+                           
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>2025-Kesken</td>
+                           
+                            <td>Perusasteen koulutus</td>
+                             <td>2017-2025</td>
+                        </tr>
+                        <tr>
+                           
                             <td>Ohjelmistokehittäjä kaksoistutkinto</td>
+                             <td>2025-Kesken</td>
                         </tr>
                         
                         
@@ -105,8 +112,10 @@
                 <div class="d-flex flex-wrap gap-2">
                     <span class="badge bg-primary">HTML</span>
                     <span class="badge bg-success">CSS</span>
-                    <span class="badge bg-warning text-dark">PHP</span>
+                    <span class="badge bg-info">PHP</span>
                     <span class="badge bg-danger">C#</span>
+                    <span class="badge bg-warning text-dark ">JavaScript</span>
+                    
                 </div>
             </div>
 

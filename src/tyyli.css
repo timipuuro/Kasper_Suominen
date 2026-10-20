@@ -25,8 +25,8 @@
     backdrop-filter: blur(10px);
 }
         header {
-            background: linear-gradient(135deg, #0d6efd, #6610f2);
-            color: white;
+            background: linear-gradient(135deg, #4E8A68, #061A11);
+            color: #d3cec2;
             padding: 200px 20px;
             text-align: center;
             outline: #1D202A;
@@ -34,40 +34,40 @@
     align-items: center;
         }
         p{
-            color: #99A1AD;
+            color: #dfe0d5;
             font-size: 1.1rem;
              line-height: 1.8;
         }
         li{
-            color: #99A1AD; font-size: 1.1rem;
+            color: #dfe0d5; font-size: 1.1rem;
              line-height: 1.8;
         }
         h3{
-            color: white;
+            color: #ddd9d0;
          font-size: 2rem;
     font-weight: bold;
        margin-bottom: 20px;
 }
         h2{
-            color: white;
+            color: #ddd9d0;
          font-size: 3rem;
     font-weight: bold;
      margin-bottom: 50px;
 }
     .row{
          align-items: flex-start;
-    gap: 50px 0;
+    gap: 40px 0;
     }
 
         .minusta {
             padding: 120px 20px;
-            min-height: 100vh;
-            background-color: #030712;
-            outline: #1D202A;
-            outline-width: 5px;
-              
+            min-height: 10vh;
+            background-color: #1E2D24;
+            outline: #131B18;
+            outline-width: 2px;
+              outline-style: solid;
             
-                outline-style: solid
+                
             
             
         }
@@ -109,7 +109,7 @@
         }
         .card-title{
             text-align: center;
-            color: white;
+            color: #C9C2B2;
         }
 
         footer {
@@ -168,5 +168,54 @@
     }
     100% {
         transform: translateX(0);
+    }
+}
+
+/* Sivun tausta ja reunat */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #0B1713;
+}
+
+/* Sisältöalue keskelle sivua */
+body {
+    width: 85%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    background:
+        radial-gradient(
+            circle at top left,
+            #030e09,
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at bottom right,
+            #061A11,
+            transparent 30%
+        ),
+        #061A11;
+}
+
+
+
+
+.minusta {
+    background-color: #1E2D24;
+}
+
+.dif {
+    background-color: #3B4B3F;
+    outline: #1D202A;
+    outline-width: 1px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
     }
 }
