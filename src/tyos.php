@@ -1,212 +1,232 @@
 <!DOCTYPE html>
-<html lang="fi" >
+<html lang="fi">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kasper Suominen</title>
+    <meta name="description" content="Kasper Suominen - Ohjelmistokehittäjä ja web-kehittäjä. Tutustu koulutukseen, osaamiseen ja työnäytteisiin.">
+    <title>Kasper Suominen | Ohjelmistokehittäjä</title>
 
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="tyyli.css">
-    
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#etusivu">Kasper Suominen</a>
 
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">Kasper Suominen</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#etusivu">Etusivu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#idf">Työnäytteet</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#yhteys">Ota yhteyttä</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-
-<header id="etusivu">
-    <h1 class="display-4"><div class="split-text-container">
-    <span class="text-part left">Kasper </span>
-    <span class="text-part right"> Suominen</span>
-</div>
-</h1>
-    <p class="lead" style="color: white ">Tuleva Ohjelmistokehittäjä</p>
-</header>
-
-
-
-<section id="minusta" class="minusta">
-    <div class="container">
-
-        <h2 class="text-center mb-5" style="color: white;">Tietoa minusta</h2>
-
-        <div class="row">
-
-            <div class="col-md-6">
-                <h3>Esittely</h3>
-                <p>
-               Minulla on vahva kiinnostus ohjelmointiin etenkin peili ohjelmointiin, ja olen innokas oppimaan uusia taitoja alalla. Olen motivoitunut sekä ahkera opiskelija, joka pyrkii jatkuvasti kehittämään itseään.
-                  
-                </p>
-
-                <h3>Harrastukset</h3>
-                <ul>
-                    <li>Lenkeily</li>
-                    <li>Pelaaminen</li>
-                    <li>Kuntosali</li>
-                    <li>Piirtäminen</li>
-                </ul>
-                <h3>yhteystiedot</h3>
-                <ul>
-                    <li>Puhelin numero: 045 698 4533</li>
-                    <li>GitHub: <a href="https://github.com/timipuuro">Kasper Suominen</a></li>
-                    <li>Kassu.suominen@gmail.com</li>
-                </ul>
-            </div>
-
-            <div class="col-md-6">
-                <h3>Koulutus</h3>
-
-                <!-- TAULUKKO -->
-                <table class="table table-striped" data-bs-theme="dark">
-                    <thead>
-                        <tr>
-                             <th>Koulutus</th>
-                            <th>Vuosi</th>
-                           
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                           
-                            <td>Perusasteen koulutus</td>
-                             <td>2017-2025</td>
-                        </tr>
-                        <tr>
-                           
-                            <td>Ohjelmistokehittäjä kaksoistutkinto</td>
-                             <td>2025-Kesken</td>
-                        </tr>
-                        
-                        
-                    </tbody>
-                </table>
-
-                <h3>Osaaminen</h3>
-
-                <div class="d-flex flex-wrap gap-2">
-                    <span class="badge bg-primary">HTML</span>
-                    <span class="badge bg-success">CSS</span>
-                    <span class="badge bg-info">PHP</span>
-                    <span class="badge bg-danger">C#</span>
-                    <span class="badge bg-warning text-dark ">JavaScript</span>
-                    
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<section class="dif" id="idf">
-    <div class="container">
-
-        <h2 class="text-center mb-5" >Työnäytteet</h2>
-
-        <div class="row g-4">
-
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">PHP</h5>
-                        <p class="card-text">
-                            Enimmät minun tekemistä PHP projekteista löytyy githubista. Tämä sivu lukuun ottaen.
-                        </p>
-                        
-                    </div>
-                     <div class="card-footer"> 
-                        <a href="https://github.com/timipuuro/Php" class="btn btn-primary">
-                            Katso projekti
-                        </a>
-</div>
-                </div>
-            </div>
-   <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body" style="height: 300px;" >
-                        <h5 class="card-title">HTML</h5>
-                        <p class="card-text">
-                            Enimmät minun tekemistä HTML projekteista löytyy githubista.
-                        </p>
-                       
-                    </div>
-                     <div class="card-footer">
- <a href="https://github.com/timipuuro/HTML/tree/main" class="btn btn-primary">
-    Katso projekti
-     </a>
-                            </div>
-                </div>
-            </div>
-
-  
-</section>
-
-
-
-<!-- YHTEYDENOTTOLOMAKE -->
-<section id="yhteys" class="minusta">
-    <div class="container">
-
-        <h2 class="text-center mb-5">Ota yhteyttä</h2>
-
-
-        <form action="mailto:kassu.suominen@gmail.com" method="post" enctype="text/plain">
-
-            <div class="mb-3">
-                <label class="form-label" style="color: #99A1AD;">Nimi</label >
-                <input type="text" class="form-control" name="nimi" required style=" background-color: #1D202A;color: #f7eeee;">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label" style="color: #99A1AD;">Sähköposti</label >
-                <input type="email" class="form-control" name="email" required style=" background-color: #1D202A;color: #f7eeee;">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label" style="color: #99A1AD;">Viesti</label >
-                <textarea class="form-control" rows="5" name="viesti" style=" background-color: #1D202A; color: #f7eeee;"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">
-                Lähetä
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
-        </form>
-    </div>
-</section>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#etusivu">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#minusta">Minusta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#idf">Työnäytteet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#yhteys">Ota yhteyttä</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 Kasper Suominen Nettisivu</p>
-</footer>
+    <header id="etusivu" class="hero">
+        <div class="container hero-inner">
+            <span class="hero-badge">Ohjelmistokehittäjä</span>
+            <h1 class="hero-title">
+                <span class="split-text-container">
+                    <span class="text-part left">Kasper</span>
+                    <span class="text-part right">Suominen</span>
+                </span>
+            </h1>
+            <p class="hero-subtitle">Rakennan selkeitä, modernia ja toimivia verkkoratkaisuja.</p>
+            <div class="hero-actions">
+                <a href="#idf" class="btn btn-primary btn-lg">Katso työni</a>
+                <a href="#yhteys" class="btn btn-outline-light btn-lg">Ota yhteyttä</a>
+            </div>
+        </div>
+    </header>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <main>
+        <section id="minusta" class="content-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Tietoa minusta</span>
+                    <h2>Sovellus ja peli-ohjelmoinista kiinnostunut kehittäjä</h2>
+                </div>
 
+                <div class="row g-5 align-items-start">
+                    <div class="col-lg-6">
+                        <div class="info-card">
+                            <h3>Esittely</h3>
+                            <p>
+                                Olen kiinnostunut ohjelmoinnista, erityisesti peli- ja sovellusohjelmoinnista.
+                                Haluan jatkuvasti kehittää itseäni ja oppia uusia taitoja alalla, joita voin sitten käyttää omissa projekteissani.
+                                Työskentelyssäni korostuvat eritysesti kiinnostus, oppimisen halu ja toimiva lopputulos.
+                            </p>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Harrastukset</h3>
+                            <ul class="info-list">
+                                <li>Lenkkeily</li>
+                                <li>Pelaaminen</li>
+                                <li>Kuntosali</li>
+                                <li>Piirtäminen</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Yhteystiedot</h3>
+                            <ul class="info-list">
+                                <li>Puhelin: 045 698 4533</li>
+                                <li>GitHub: <a href="https://github.com/timipuuro" target="_blank" rel="noopener noreferrer">Kasper Suominen</a></li>
+                                <li>Sähköposti: kassu.suominen@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="panel">
+                            <h3>Koulutus</h3>
+                            <table class="table custom-table">
+                                <thead>
+                                    <tr>
+                                        <th>Koulutus</th>
+                                        <th>Vuosi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Perusasteen koulutus</td>
+                                        <td>2016–2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ohjelmistokehittäjä kaksoistutkinto</td>
+                                        <td>2025 – kesken</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="panel">
+                            <h3>Osaaminen</h3>
+                            <div class="skills">
+                                <span class="skill-chip html">HTML</span>
+                                <span class="skill-chip css">CSS</span>
+                                <span class="skill-chip php">PHP</span>
+                                <span class="skill-chip csharp">C#</span>
+                                <span class="skill-chip js">JavaScript</span>
+                                <span class="skill-chip sql">SQL</span>
+                                <span class="skill-chip api">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="idf" class="projects-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Työnäytteet</span>
+                    <h2>Projektit ja toteutukset</h2>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-4">
+                        <article class="project-card">
+                            <div class="project-card-body">
+                                <span class="project-tag">PHP</span>
+                                <h3>PHP-sovellukset</h3>
+                                <p>
+                                    Kehittelen web-sovelluksia ja sivustoja, joissa yhdistyvät toimivuus,
+                                    selkeä rakenne ja käytettävä käyttöliittymä.
+                                </p>
+                            </div>
+                            <div class="project-card-footer">
+                                <a href="https://github.com/timipuuro/Php" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Katso projekti</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4">
+                        <article class="project-card">
+                            <div class="project-card-body">
+                                <span class="project-tag">HTML</span>
+                                <h3>HTML & UI</h3>
+                                <p>
+                                    Suunnittelen responsiivisia sivuston elementtejä ja visuaalisesti selkeitä käyttöliittymiä.
+                                </p>
+                            </div>
+                            <div class="project-card-footer">
+                                <a href="https://github.com/timipuuro/HTML/tree/main" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Katso projekti</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4">
+                        <article class="project-card">
+                            <div class="project-card-body">
+                                <span class="project-tag">Web</span>
+                                <h3>Modernit sivustot</h3>
+                                <p>
+                                    Pyrin yhdistämään käyttäjäystävällisen suunnittelun, teknisen laadun ja nopeuden.
+                                </p>
+                            </div>
+                            <div class="project-card-footer">
+                                <a href="#yhteys" class="btn btn-primary">Ota yhteyttä</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="yhteys" class="contact-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Ota yhteyttä</span>
+                    <h2>Olen avoin yhteistyölle ja uusille haasteille</h2>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form action="mailto:kassu.suominen@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                            <div class="mb-3">
+                                <label for="nimi" class="form-label">Nimi</label>
+                                <input id="nimi" type="text" class="form-control" name="nimi" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Sähköposti</label>
+                                <input id="email" type="email" class="form-control" name="email" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="viesti" class="form-label">Viesti</label>
+                                <textarea id="viesti" class="form-control" rows="5" name="viesti" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg">Lähetä</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Kasper Suominen</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
