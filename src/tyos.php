@@ -46,7 +46,7 @@
                     <span class="text-part right">Suominen</span>
                 </span>
             </h1>
-            <p class="hero-subtitle">Rakennan selkeitä, modernia ja toimivia verkkoratkaisuja.</p>
+            <p class="hero-subtitle"> peli- ja sovellusohjelmoinista kiinnostunut kehittäjä</p>
             <div class="hero-actions">
                 <a href="#idf" class="btn btn-primary btn-lg">Katso työni</a>
                 <a href="#yhteys" class="btn btn-outline-light btn-lg">Ota yhteyttä</a>
