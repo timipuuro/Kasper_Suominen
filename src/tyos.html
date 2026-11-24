@@ -7,6 +7,9 @@
     <title>Kasper Suominen | Ohjelmistokehittäjä</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tyyli.css">
 </head>
 <body>
@@ -179,15 +182,29 @@
                     <div class="col-md-6 col-xl-4">
                         <article class="project-card">
                             <div class="project-card-body">
+                                <span class="project-tag">PHP/JS</span>
+                                <h3>kysymyspeli-projektit</h3>
+                                <p>
+                                    kysymyspeli, jossa opettajat voivat hallinnoida kysymyksiä ja opiskelijat testata osaamistaan eri aihealueilla.
+                                </p>
+                            </div>
+                            <div class="project-card-footer">
+                                <a href="https://github.com/timipuuro/Quiz_projekti" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Katso projekti</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4">
+                        <article class="project-card">
+                            <div class="project-card-body">
                                 <span class="project-tag">PHP</span>
-                                <h3>PHP-sovellukset</h3>
+                                <h3>luokan varaus projekti</h3>
                                 <p>
-                                    Kehittelen web-sovelluksia ja sivustoja, joissa yhdistyvät toimivuus,
-                                    selkeä rakenne ja käytettävä käyttöliittymä.
+                                    Sivusto, jossa opettajat voivat varata luokkahuoneita ja opiskelijat tarkastella varauksia.
                                 </p>
                             </div>
                             <div class="project-card-footer">
-                                <a href="https://github.com/timipuuro/Php" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Katso projekti</a>
+                                <a href="https://github.com/timipuuro/Projekti" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Katso projekti</a>
                             </div>
                         </article>
                     </div>
@@ -195,25 +212,10 @@
                     <div class="col-md-6 col-xl-4">
                         <article class="project-card">
                             <div class="project-card-body">
-                                <span class="project-tag">HTML</span>
-                                <h3>HTML & UI</h3>
+                                <span class="project-tag">muut</span>
+                                <h3>Muut projektit</h3>
                                 <p>
-                                    Suunnittelen responsiivisia sivuston elementtejä ja visuaalisesti selkeitä käyttöliittymiä.
-                                </p>
-                            </div>
-                            <div class="project-card-footer">
-                                <a href="https://github.com/timipuuro/HTML/tree/main" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Katso projekti</a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-md-6 col-xl-4">
-                        <article class="project-card">
-                            <div class="project-card-body">
-                                <span class="project-tag">Web</span>
-                                <h3>Modernit sivustot</h3>
-                                <p>
-                                    Pyrin yhdistämään käyttäjäystävällisen suunnittelun, teknisen laadun ja nopeuden.
+                                    Katso muita projektejani GitHubista, sieltä löydät muita projeketeja.
                                 </p>
                             </div>
                             <div class="project-card-footer">
@@ -229,7 +231,7 @@
             <div class="container">
                 <div class="section-heading">
                     <span class="eyebrow">Ota yhteyttä</span>
-                    <h2>Olen avoin yhteistyölle ja uusille haasteille</h2>
+                    <h2>Ota minuun yhteyttä</h2>
                 </div>
 
                 <div class="row justify-content-center">
@@ -237,12 +239,12 @@
                         <form action="mailto:kassu.suominen@gmail.com" method="post" enctype="text/plain" class="contact-form">
                             <div class="mb-3">
                                 <label for="nimi" class="form-label">Nimi</label>
-                                <input id="nimi" type="text" class="form-control" name="nimi" required>
+                                <input id="nimi" type="text" class="form-control" name="nimi" autocomplete="name" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="email" class="form-label">Sähköposti</label>
-                                <input id="email" type="email" class="form-control" name="email" required>
+                                <input id="email" type="email" class="form-control" name="email" autocomplete="email" required>
                             </div>
 
                             <div class="mb-3">
@@ -251,6 +253,7 @@
                             </div>
 
                             <button type="submit" class="btn btn-primary btn-lg">Lähetä</button>
+                            <p id="contact-status" class="mt-3 mb-0" role="status" aria-live="polite"></p>
                         </form>
                     </div>
                 </div>
@@ -263,5 +266,33 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelector(".contact-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.querySelector("#nimi").value.trim();
+            const email = document.querySelector("#email").value.trim();
+            const message = document.querySelector("#viesti").value.trim();
+            const status = document.querySelector("#contact-status");
+
+            if (!name || !email || !message) {
+                status.textContent = "Täytä kaikki kentät.";
+                return;
+            }
+
+
+            
+            const subject = encodeURIComponent("Yhteydenotto - " + name);
+            const body = encodeURIComponent(
+                "Nimi: " + name + "\n" +
+                "Sähköposti: " + email + "\n\n" +
+                "Viesti:\n" + message
+            );
+
+            status.textContent = "Sähköpostiohjelma avataan...";
+
+            window.location.href = "mailto:kassu.suominen@gmail.com?subject=" + subject + "&body=" + body;
+        });
+    </script>
 </body>
 </html>

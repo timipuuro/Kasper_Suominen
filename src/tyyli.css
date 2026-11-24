@@ -24,7 +24,7 @@ html {
 
 body {
     margin: 0;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: "Source Sans 3", Arial, sans-serif;
     background: var(--bg-dark);
     color: var(--text-main);
     line-height: 1.7;
@@ -57,7 +57,7 @@ footer {
 }
 
 .navbar-brand {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Newsreader", Georgia, "Times New Roman", serif;
     font-size: 1.4rem;
     font-weight: 700;
     letter-spacing: 0.01em;
@@ -150,6 +150,7 @@ footer {
 .hero-title {
     margin: 1.5rem 0 1rem;
     font-family: Georgia, "Times New Roman", serif;
+
     font-size: clamp(3rem, 6vw, 5.8rem);
     line-height: 1.05;
     color: var(--text-main);
@@ -302,7 +303,7 @@ footer {
 .section-heading h2 {
     margin: 0;
     color: var(--text-main);
-    font-family: Georgia, "Times New Roman", serif;
+    font-family:  Georgia, "Times New Roman", serif;
     font-size: clamp(2rem, 3vw, 3rem);
     font-weight: 800;
 }
